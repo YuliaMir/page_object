@@ -43,7 +43,7 @@ class AdminPage(BasePage):
         self._click(self.BUTTON_FILTER)
         self._click(self.SELECT_PRODUCT)
         self._click(self.DANGER)
-        confirm = self.browser.switch_to.alert
+        confirm = self.driver.switch_to.alert
         confirm.accept()
 
     def presence_of_elements(self):
