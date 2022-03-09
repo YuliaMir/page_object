@@ -1,0 +1,2 @@
+class UserLoginForm:
+    pass
